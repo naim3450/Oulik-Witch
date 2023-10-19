@@ -1,0 +1,188 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .top-content{
+        background-color: rgb(221, 221, 221);
+        max-width: 100%;
+        height: 65px;
+    }
+    h3{
+        line-height: 65px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    label{
+        line-height: 65px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    .photo_gallary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .mj_old_photo{
+        height: 300px;
+    }
+    .mj_new_photo{
+        height: 350px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .top-content{
+        background-color: rgb(221, 221, 221);
+        max-width: 100%;
+        height: 60px;
+    }
+    h3{
+        line-height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    label{
+        line-height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    .photo_gallary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .mj_old_photo{
+        height: 250px;
+    }
+    .mj_new_photo{
+        height: 300px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .top-content{
+        background-color: rgb(221, 221, 221);
+        max-width: 100%;
+        height: 55px;
+    }
+    h3{
+        line-height: 55px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    label{
+        line-height: 55px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    .photo_gallary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .mj_old_photo{
+        height: 200px;
+    }
+    .mj_new_photo{
+        height: 250px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .top-content{
+        background-color: rgb(221, 221, 221);
+        max-width: 100%;
+        height: 55px;
+    }
+    h3{
+        line-height: 55px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    label{
+        line-height: 55px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    .photo_gallary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .mj_old_photo{
+        height: 200px;
+    }
+    .mj_new_photo{
+        height: 200px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .top-content{
+        background-color: rgb(221, 221, 221);
+        max-width: 100%;
+        height: 50px;
+    }
+    h3{
+        line-height: 50px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    label{
+        line-height: 50px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px solid #000;
+    }
+    .photo_gallary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .mj_old_photo{
+        height: 150px
+    }
+    .mj_new_photo{
+        height: 150px;
+    }
+}
+
+
+
+
